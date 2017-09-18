@@ -30,7 +30,7 @@ app.get('/ui/madi.png', function(req,res){
 });
 
 
-varport-80;
-app.listen(80, function(){
+var port- 8080;//use 8080  for local development because you might already have apache running on 8080
+app.listen(8080, function(){
   console.log('Imad course app listening on port$(port)!');
 });  
