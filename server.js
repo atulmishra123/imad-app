@@ -30,7 +30,7 @@ app.get('/ui/madi.png', function(req,res){
 });
 
 
-var port-80;
+varport-80;
 app.listen(80, function(){
   console.log('Imad course app listening on port$(port)!');
-};  
+});  
