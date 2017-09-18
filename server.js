@@ -21,3 +21,16 @@ app.get('/article-three', function (req,res) {
     res.send('Article three requested and will be served here');
 });
 
+app.get('/ui/style.css', function (req,res) {
+  res.sendFile(path.join(_ _dirname,'ui','style.css'));  
+});
+
+app.get('/ui/madi.png', function(req,res){
+  res.sendFile(path.join(_ _dirname,'ui','madi.png'));
+});
+
+
+var port-80;
+app.listen(80, function(){
+  console.log('Imad course app listening on port$(port)!');
+};  
