@@ -22,11 +22,11 @@ app.get('/article-three', function (req,res) {
 });
 
 app.get('/ui/style.css', function (req,res) {
-  res.sendFile(path.join(_ _dirname,'ui','style.css'));  
+  res.sendFile(path.join(_dirname,'ui','style.css'));  
 });
 
 app.get('/ui/madi.png', function(req,res){
-  res.sendFile(path.join(_ _dirname,'ui','madi.png'));
+  res.sendFile(path.join(_dirname,'ui','madi.png'));
 });
 
 
